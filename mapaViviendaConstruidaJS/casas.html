@@ -1,0 +1,126 @@
+   <html>
+   <head>
+       <title>Casas tristes</title>
+       <link rel='stylesheet' href='styles.css' type='text/css' />
+       <link href="casas.js" type="application/json" rel="exhibit/data" />
+       <script src="http://static.simile.mit.edu/exhibit/api-2.0/exhibit-api.js" type="text/javascript"></script>
+       
+	 <!--<script src="http://static.simile.mit.edu/exhibit/extensions-2.0/map/map-extension.js?gmapkey=ABQIAAAAZKoJBVOWJ0Kw47XsCCqCLRTwMXpvZY9D1y7yYq8iL7I39yA0_hS8M_Tjz-27fASHPh-njlEQ74Tquw"
+			 type="text/javascript"></script>-->
+	 <script src="http://static.simile.mit.edu/exhibit/extensions-2.0/map/map-extension.js?gmapkey=ABQIAAAAwxkj_KCH7r1lgEVXQUgmORR0_h0ZG3y3kzbIt_UGoawObxPv_xQJ9GxVn3-G17GsD1VASf8UctH4jg"
+			 type="text/javascript"></script>
+   </head> 
+   <body>
+   
+<table id="frame"><tr>
+        <td id="content">
+            <h1>Casas tristes</h1>
+			<p>Mapa de las Provincias mostrando la cantidad de viviendas libres terminadas entre 1991 y 2006.</p>
+            
+        <div ex:role="coder" 
+        	ex:coderClass="SizeGradient" 
+        	id="principio-coder" 
+        	ex:gradientPoints="174, 10; 	123799, 100" >
+        </div>
+
+        <div ex:role="coder" 
+        	ex:coderClass="SizeGradient" 
+        	id="final-coder" 
+        	ex:gradientPoints="174, 5; 123799, 100" >
+        </div> 
+
+            
+        <div ex:role="viewPanel">
+
+        	<!-- Mapa. Se epecifican varios parámetros --> 
+	        <div ex:role="view"
+	            ex:viewClass="Map"
+	            ex:label="año 1991"
+	            ex:latlng=".LUGARLatLng"
+	            ex:sizeKey=".principio"
+	            ex:sizeCoder="principio-coder"	 
+	            ex:sizeLegendLabel="Casas vacías en 1991"           
+	            ex:center="40.066862, -4.470703"
+	            ex:zoom="6"
+	            ex:mapHeight="500"
+	            ex:showHeader="false"
+	            >
+	            
+	            <!-- Se especifica que y cómo se muestran las burbujas de información cuando pinchamos en cada punto -->
+	            <div class="map-lens" ex:role="lens" style="display: none;">
+	                <div><b ex:content=".label"></b></div>
+	                <div>Número de casas vacías en 1991: <span ex:content=".principio"></span></div>
+    				<div>Número de casas vacías en 2006: <span ex:content=".final"></span></div>
+	            </div>
+	            
+	        </div>
+
+	        
+	        <div ex:role="view"
+	            ex:viewClass="Map"
+	            ex:label="año 2006"
+	            ex:latlng=".LUGARLatLng"
+	            ex:sizeKey=".final"
+	            ex:sizeCoder="final-coder"	 
+	            ex:sizeLegendLabel="Casas vacías en 2006"           
+	            ex:center="40.066862, -4.470703"
+	            ex:zoom="6"
+	            ex:mapHeight="500"
+	            ex:showHeader="false"
+	            >
+	            
+	            <!-- Se especifica que y cómo se muestran las burbujas de información cuando pinchamos en cada punto -->
+	            <div class="map-lens" ex:role="lens" style="display: none;">
+	                <div><b ex:content=".label"></b></div>
+    				<div>Número de casas vacías en 2006: <span ex:content=".final"></span></div>
+    				<div>Número de casas vacías en 1991: <span ex:content=".principio"></span></div>
+	            </div>
+	            
+	        </div>
+	        
+	        <!-- Tabla. Se especifican las columnas de datos que se muestran, asi como sus etiquetas (labels) -->
+                <div ex:role="view"
+                    ex:viewClass="Tabular"
+                    ex:label="Tabla"
+                    ex:columns=".label, .principio, .final"
+                    ex:columnLabels="Comunidades Autónomas, año 1991, año 2006"
+                    ex:sortColumn="1"
+                    ex:sortAscending="false"
+                    ></div>
+
+        </div>	 
+ 
+ 
+ <td id="sidebar">
+		
+	    <!-- Filtro por Comunidades Autonomas. ex:expression define el campo por el que se va a filtrar la informacion -->	
+            <div ex:role="facet" ex:expression=".label" ex:facetLabel="Comunidades Autónomas" ex:height="15em"></div>
+            
+            <!-- Filtro por rango de poblacion. ex:interval define el intervalo -->
+            <div ex:role="facet" ex:facetClass="Exhibit.NumericRangeFacet" 
+                ex:expression=".principio" 
+                ex:interval="2000" 
+                ex:facetLabel="Casas vacias 1991" 
+                ex:height="15em"></div>
+                
+                <!-- Filtro por rango de poblacion. ex:interval define el intervalo -->
+            <div ex:role="facet" ex:facetClass="Exhibit.NumericRangeFacet" 
+                ex:expression=".final" 
+                ex:interval="2000" 
+                ex:facetLabel="Casas vacias 2006" 
+                ex:height="15em"></div>
+            
+            <div style="text-align: center; margin: 2em;">
+
+                <div ex:role="logo" ex:color="Azure"></div>
+                <a href="casas.js" target="_blank">(archivo de datos)</a><br>
+					<a href="http://casastristes.org/es/content/mapa-de-viviendas-libres">Versión Java</a><br>
+					<a href="http://nice-code.es/">Hecho por Paola Salillas</a>
+            </div>
+
+        </td>
+ 
+ </tr></table>
+ 
+   </body>
+</html>
