@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<chart>
+
+  <title>Vivienda empezada en España comparada con 10 paises EU</title>
+  <subtitle>Fuente: EMF - European Mortgage Federation (2006) . Los paises estan ordenados por el número de habitantes.</subtitle>
+  <name_value1>Son el número de viviendas empezadas a construir cada año desde 1997 a 2006.</name_value1>
+  <type>bars</type>
+  <header_height>75</header_height>
+  
+  <chart_data>	 
+		 
+		 <piece>
+			  <name>Alemaña</name>
+			  <value1>822100000</value1>
+		 	  <value2>
+				  <value a="1997">452727</value>
+				  <value a="1998">407594</value>
+				  <value a="1999">379077</value>
+				  <value a="2000">304248</value>
+				  <value a="2001">256564</value>
+				  <value a="2002">243222</value>
+				  <value a="2003">263317</value>
+				  <value a="2004">236378</value>
+				  <value a="2005">211706</value>
+				  <value a="2006">216580</value>
+				  <value a="2007">174595</value>
+				  <value a="2008">174595</value>
+				  <value a="2009">177939</value>
+				  <value a="2010">187667</value>
+				  <value a="2011">228311</value>
+				  <value a="2012">241090</value>
+				  <value a="2013">270364</value>
+			  </value2>
+		  </piece>
+
+		  <piece>
+			  <name>Francia</name>
+			  <value1>63753140</value1>
+			  <value2>
+				  <value a="1997">264300</value>
+				  <value a="1998">285000</value>
+				  <value a="1999">317000</value>
+				  <value a="2000">309500</value>
+				  <value a="2001">303000</value>
+				  <value a="2002">302900</value>
+				  <value a="2003">322600</value>
+				  <value a="2004">363400</value>
+				  <value a="2005">410200</value>
+				  <value a="2006">420900</value>
+				  <value a="2007">499629</value>
+				  <value a="2008">404811</value>
+				  <value a="2009">345485</value>
+				  <value a="2010">441376</value>
+				  <value a="2011">474423</value>
+				  <value a="2012">446843</value>
+				  <value a="2013">399321</value>
+			  </value2>
+		 </piece>      
+
+		 <piece>
+			  <name>Reino Unido</name>
+			  <value1>60393000</value1>
+			  <value2>
+				  <value a="1997">200701</value>
+				  <value a="1998">187197</value>
+				  <value a="1999">189501</value>
+				  <value a="2000">188814</value>
+				  <value a="2001">193607</value>
+				  <value a="2002">193407</value>
+				  <value a="2003">207303</value>
+				  <value a="2004">227875</value>
+				  <value a="2005">226766</value>
+				  <value a="2006">231583</value>
+				  <value a="2007">218920</value>
+				  <value a="2008">118570</value>
+				  <value a="2009">124420</value>
+				  <value a="2010">138470</value>
+				  <value a="2011">135300</value>
+				  <value a="2012">127450</value>
+				  <value a="2013">127450</value>
+			  </value2>
+		 </piece>
+			 
+		  <piece>
+			  <name>Italia</name>
+			  <value1>59337888</value1>
+			   <value2>
+				  <value a="1997">155626</value>
+				  <value a="1998">150421</value>
+				  <value a="1999">162034</value>
+				  <value a="2000">177615</value>
+				  <value a="2001">169573</value>
+				  <value a="2002">171269</value>
+				  <value a="2003">174352</value>
+				  <value a="2004">200000</value>
+				  <value a="2005">296201</value>
+				  <value a="2006">317391</value>
+				  <value a="2007">250271</value>
+				  <value a="2008">191783</value>
+				  <value a="2009">141587</value>
+				  <value a="2010">119409</value>
+				  <value a="2011">112391</value>
+				  <value a="2012">84307</value>
+				  <value a="2013">84307</value>
+			  </value2>
+		 </piece>    
+		 
+		 <piece>
+			  <name>España</name>
+			  <value1>45116894</value1>
+			  <value2>
+				  <value a="1997">322700</value>
+				  <value a="1998">407380</value>
+				  <value a="1999">510767</value>
+				  <value a="2000">533700</value>
+				  <value a="2001">523700</value>
+				  <value a="2002">543060</value>
+				  <value a="2003">622185</value>
+				  <value a="2004">691027</value>
+				  <value a="2005">716219</value>
+				  <value a="2006">760179</value>
+				  <value a="2007">633430</value>
+				  <value a="2008">267876</value>
+				  <value a="2009">130418</value>
+				  <value a="2010">91509</value>
+				  <value a="2011">75894</value>
+				  <value a="2012">57486</value>
+				  <value a="2013">31213</value>
+			  </value2>
+		 </piece>   
+			
+		 <piece>
+			  <name>Polonia</name>
+			  <value1>38115967</value1>
+			  <value2>
+				  <value a="1997">90000</value>
+				  <value a="1998">91000</value>
+				  <value a="1999">90000</value>
+				  <value a="2000">125000</value>
+				  <value a="2001">114000</value>
+				  <value a="2002">77000</value>
+				  <value a="2003">82000</value>
+				  <value a="2004">97000</value>
+				  <value a="2005">102038</value>
+				  <value a="2006">137962</value>
+				  <value a="2007">236731</value>
+				  <value a="2008">223372</value>
+				  <value a="2009">168440</value>
+				  <value a="2010">165116</value>
+				  <value a="2011">184146</value>
+				  <value a="2012">165282</value>
+				  <value a="2013">138837</value>
+			  </value2>
+		 </piece>
+		     
+		 <piece>
+			  <name>Bélgica</name>
+			  <value1>10584534</value1>
+			   <value2>
+				  <value a="1997">47460</value>
+				  <value a="1998">40564</value>
+				  <value a="1999">41670</value>
+				  <value a="2000">41087</value>
+				  <value a="2001">42047</value>
+				  <value a="2002">39374</value>
+				  <value a="2003">41134</value>
+				  <value a="2004">46193</value>
+				  <value a="2005">51068</value>
+				  <value a="2006">53483</value>
+				  <value a="2007">53922</value>
+				  <value a="2008">52611</value>
+				  <value a="2009">45448</value>
+				  <value a="2010">49817</value>
+				  <value a="2011">44330</value>
+				  <value a="2012">46769</value>
+				  <value a="2013">48947</value>
+			  </value2>
+		 </piece>
+			     
+		 <piece>
+			  <name>R. Checa</name>
+			  <value1>10306709</value1>
+			 <value2>
+				  <value a="1997">33152</value>
+				  <value a="1998">35027</value>
+				  <value a="1999">32900</value>
+				  <value a="2000">32377</value>
+				  <value a="2001">28983</value>
+				  <value a="2002">33606</value>
+				  <value a="2003">36496</value>
+				  <value a="2004">39037</value>
+				  <value a="2005">40381</value>
+				  <value a="2006">43747</value>
+				  <value a="2007">47298</value>
+				  <value a="2008">47389</value>
+				  <value a="2009">41954</value>
+				  <value a="2010">39158</value>
+				  <value a="2011">39656</value>
+				  <value a="2012">34006</value>
+				  <value a="2013">29475</value>
+			  </value2>
+		 </piece>
+		      		
+		 <piece>
+			  <name>Suecia</name>
+			  <value1>9048000</value1>
+			 <value2>
+				  <value a="1997">12000</value>
+				  <value a="1998">12700</value>
+				  <value a="1999">14600</value>
+				  <value a="2000">16900</value>
+				  <value a="2001">19500</value>
+				  <value a="2002">19200</value>
+				  <value a="2003">22220</value>
+				  <value a="2004">27000</value>
+				  <value a="2005">31500</value>
+				  <value a="2006">44900</value>
+				  <value a="2007">28700</value>
+				  <value a="2008">24700</value>
+				  <value a="2009">21600</value>
+				  <value a="2010">28800</value>
+				  <value a="2011">29100</value>
+				  <value a="2012">25000</value>
+				  <value a="2013">34400</value>
+			  </value2>
+		 </piece>
+		     
+	     <piece>
+			  <name>Dinamarca</name>
+			  <value1>5427000</value1>
+			 <value2>
+				  <value a="1997">17594</value>
+				  <value a="1998">18447</value>
+				  <value a="1999">17737</value>
+				  <value a="2000">16205</value>
+				  <value a="2001">20777</value>
+				  <value a="2002">23243</value>
+				  <value a="2003">27869</value>
+				  <value a="2004">29426</value>
+				  <value a="2005">31400</value>
+				  <value a="2006">26922</value>
+				  <value a="2007">23158</value>
+				  <value a="2008">16320</value>
+				  <value a="2009">9043</value>
+				  <value a="2010">17685</value>
+				  <value a="2011">17403</value>
+				  <value a="2012">12799</value>
+				  <value a="2013">10977</value>
+			  </value2>
+		 </piece>
+		       
+  </chart_data>
+  
+  <colours>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0xF9FF00</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>	  
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>
+	  <colour>0x999999</colour>		
+  </colours>
+   
+</chart>
+
+
+
+
+
+
